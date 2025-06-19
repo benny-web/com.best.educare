@@ -1,0 +1,31 @@
+/****************************************************
+ *  File name   : main.css                          *
+ *  Author      : Yohanes Benny Bennedictus         *
+ *  Date        : June, 18 2025                     *
+ *  Description : CSS ruels to define the layout    *
+ *                of landing page content.          *
+*****************************************************/
+
+main {
+    display: inherit;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
+
+main > h1 {
+    font-family: 'Berkshire Swash';
+    font-size: 3em;
+    letter-spacing: 1.5px;
+    align-self: center;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fb, #ig, #tiktok, #wa {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
