@@ -1,0 +1,22 @@
+/****************************************************
+ *  File name   : header.css                        *
+ *  Author      : Yohanes Benny Bennedictus         *
+ *  Date        : June, 18 2025                     *
+ *  Description : CSS rules to define the layout of *
+ *                header section.                   * 
+*****************************************************/
+
+header {
+    display: inherit;
+    grid-template-columns: auto 1fr;
+}
+
+header > h2 {
+    justify-self: right;
+    align-self: center;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 1.25px;
+    padding-right: 10px;
+}
