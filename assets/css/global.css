@@ -1,1 +1,17 @@
+/********************************************************
+ *  File name   : global.css                            *
+ *  Author      : Yohanes Benny Bennedictus             *
+ *  Date        : June, 16 2025                         *
+ *  Description : CSS rules to manage global layout of  *
+ *                index.html page (landing page).       *
+ ********************************************************/
 
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--white);
+    color: var(--black);
+    display: grid;
+    grid-template-rows: repeat(2, auto) 1fr auto;
+ }
