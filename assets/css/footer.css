@@ -1,0 +1,24 @@
+/****************************************************
+ *  File name   : footer.css                        *
+ *  Author      : Yohanes Benny Bennedictus         *
+ *  Date        : June, 18 2025                     *
+ *  Description : CSS rules to define the content   *
+ *                and layout of footer section.     *
+*****************************************************/
+
+footer {
+    display: inherit;
+    grid-template-rows: 1fr auto;
+    background-color: var(--maroon);
+    height: 100px;
+}
+
+#copyright > p {
+    margin-bottom: 0;
+    padding-bottom: 3px;
+    color: var(--white);
+    font-size: 0.9em;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-style: italic;
+}
